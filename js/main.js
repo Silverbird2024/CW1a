@@ -63,6 +63,7 @@ NeoApp.controller("MicroColl001_Ctrl", function($scope,$rootScope,$route,$timeou
 $App.NAB.PageNumber = 3;
 $App.NAB.PageID = "MicroColl001";
 $scope.Ellipse1_click = function() {window.open("https://1drv.ms/i/s!Ar-YvPOuDZpGhtwij1zxGfxc4MGQzQ?e=UIoabh", "_blank");};
+$scope.Polygon1_click = function() {window.open("https://1drv.ms/i/s!Ar-YvPOuDZpGhtwj5Id9789zqUcNHg?e=v16K7a", "_blank");};
 $scope.Ellipse2_click = function() {window.open("https://1drv.ms/i/s!Ar-YvPOuDZpGhtwkcjmFh9sKSokpaQ?e=90q7k4", "_blank");};
 $scope.Pager5_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager5_nextclick = function() {$scope.GotoNextPage();};
